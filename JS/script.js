@@ -37,6 +37,6 @@ function adicionarTarefa() {
         novaTarefa.appendChild(botaoConcluir);
         listaTarefas.appendChild(novaTarefa);
         
-        inputTarefa.value = "";
+        entradaTarefa.value = "";
     }
 }

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container1{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(220, 97, 97);
+}
+
+h1 {
+    padding: 2% 5%;
+    margin-bottom: 0;
+}
+
+h2 {
+    padding-left: 5%;
+}
+
+#entradaTarefa {
+    width: 50%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(201, 210, 207);
+}
+
+#botaoAdicionar {
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(75, 173, 75);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.tarefa {
+    margin-top: 5px;
+    font-size: 14px;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+.botaoConcluir {
+    margin-left: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.botaoExcluir {
+    margin-left: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.concluida {
+    text-decoration: line-through;
+}
+
+.tarefasPendentes {
+    margin-left: 5%;
+    width: 100vh;
+    height: 30vh;
+    background-color: rgb(245, 229, 220);
+}
+
+#listaTarefas, #tarefasConcluidas{
+    font-size: 20px;
+    margin-bottom: 15%;
+    padding-top: 10px;
+}
+
+.tarefasConcluidas {
+    margin-left: 5%;
+    width: 100vh;
+    height: 30vh;
+    background-color: rgb(245, 229, 220);
+}
+
+p {
+   margin-top: 3px; 
+   margin-left: 5%;
+   font-size: 15px;
+   font-weight: bold; 
+}
